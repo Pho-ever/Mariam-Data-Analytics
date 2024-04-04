@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #212529 !important;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+    background: #F9EDE5;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.collapse{
+    display: flex;
+}
+
+
+.navbar-toggler {
+    display: none;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.section {
+    margin-bottom: 100px;
+    padding: 50px 20px 20px;
+    height: fit-content;
+}
+
+.navbar {
+    padding: 10px 15px 15px 15px !important;
+    margin-bottom: 70px;
+    background-color: #F9EDE5;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.navbar-div {
+    display: flex;
+    width: 100%;
+}
+
+.navbar-icon img{
+    height: 65px;
+}
+
+.navbar-icon {
+    position: relative;
+}
+
+.navbar-icon span{
+    padding-left: 18px;
+    font-weight: 600;
+}
+
+.nav-tabs {
+    width: 100%;
+    align-items: end;
+}
+
+
+.nav-tabs .nav-link {
+    color: #000;
+}
+
+.navbar-icon p{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Newsreader', serif;
+    top: 10px;
+    left: 35px;
+}
+
+.right, .left {
+    position: relative;
+    background-color: #F9EDE5;
+    border: 5px solid #FDB5AA;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.content {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+}
+
+.right > h1 {
+    color: #000;
+    font-size: 84px;
+    font-family: 'Newsreader', serif;
+    position: absolute;
+    right: 50px;
+    top: -62px;
+}
+
+.left > h1 {
+    color: #000;
+    font-size: 84px;
+    font-family: 'Newsreader', serif;
+    position: absolute;
+    left: 50px;
+    top: -62px;
+}
+
+.right .content p {
+    font-size: 18px;
+} 
+
+
+.grid-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.box{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(/navbar-img.svg);
+    background-repeat: no-repeat;
+    background-position: -120px;
+    background-size: contain;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: grid !important;
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper-button-prev {
+    left: -20px !important;
+    background-image: url(/button-img.svg);
+    background-repeat: no-repeat;
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .swiper-button-next {
+    right: -20px !important;
+    background-image: url(/button-img.svg);
+    background-repeat: no-repeat;
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media (max-width: 899px) {
+    .grid-box {
+        grid-template-columns: 12fr;
+    }
+
+    .box {
+        width: 40%;
+    }
+  }
+
+  @media (max-width: 669px) {
+    .navbar-toggler {
+        display: flex;
+    }
+
+    .nav-tabs {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15px;
+        /* position: absolute;
+        background-color: #F9EDE5;
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+        top: 90px;
+        left: 0;
+        z-index: 1; */
+    }
+
+    .nav-tabs .nav-link {
+        margin-left: 20px;
+    }
+
+    .navbar-div {
+        display: grid;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .right > h1 {
+        font-size: 44px;
+        right: 10px;
+        top: -30px;
+    }
+
+    .left > h1 {
+        font-size: 44px;
+        left: 10px;
+        top: -30px;
+    }
+
+    .right .content p {
+        font-size: 15px;
+    }
+
+    .swiper-slide {
+        grid-template-columns: 12fr;
+    }
+
+    .swiper-button-prev {
+        left: -20px !important;
+    }
+
+    /* .swiper-button-next{
+        width: 35px !important;
+        height: 35px !important;
+    } */
+
+    .small-screen {
+        /* display: none; */
+        border: 2px solid red;
+        position: absolute;
+        top: -1000px;
+    }
+
+    .box {
+        width: 100%;
+    }
+  }
