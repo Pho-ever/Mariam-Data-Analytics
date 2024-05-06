@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SUPERSTORE</title>
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="navbar-div">
+
+      <div class="flex">
+        <div class="navbar-icon">
+          <img src="/navbar-img.svg" alt="" class="color">
+          <p>M</p>
+          <span>MARIAM ADEPOJU</span>
+      </div>
+
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      </div>
+        
+
+        <ul class="nav nav-tabs justify-content big-screen collapse" id="navbarToggleExternalContent" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+
+        <ul class="nav nav-tabs justify-content small-screen" id="navbarToggleExternalContent" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+
+    <section id="contact" class="section">
+        <div class="right">
+            <h1>GLOBAL SUPERSTORE</h1>
+            <div class="swiper-slide">
+                <!-- <h2 style="margin-top: 20px;"></h2> -->
+                <div>
+                  Global Superstore is a global online retailer based in New York, boasting a broad product catalogue and aiming to be a one-stop-shop for its customers. Global The superstore’s clientele, hailing from 147 different countries, can browse through an endless offering with more than 10,000 products. This large selection comprises three main categories: office supplies (e.g., staples), furniture (e.g., chairs), and technology (e.g., smartphones). 
+                  The aim of this analysis is to show the countries that generated the highest profit,
+                  The products that generated the highest revenue, shipping costs, the least profitable
+                  Country and a lot more. 
+
+                  This dataset was cleaned and sorted using excel, queried using SQL and visualized using Power Bi.
+                </div>
+                <br>
+                <img src="/global-1.png" alt="" width="100%" height="100%">
+                <br>
+
+
+                <div>Summarily, I used SQL to  analyze the top countries that generated the most profit using SUM, GROUP BY, ORDER BY function and LIMIT, along with the key contributing products.
+                  Using the BETWEEN function, I assessed Nigeria’s profit for 2014 which gave us a loss. I also used the inner join to join two tables together to get customers who returned goods.</div> 
+
+        <p  style="font-weight: bold; font-size: 20px;">Questions</p>
+        <p>1)Which top 3 countries generated the highest profit and which products   contributed to this?</p>
+        <p>2)Which sub categories have the highest avg shipping cost in USA?</p>
+        <p>3)What is the cause for Nigeria’s poor performance?</p>
+        <p>4)What is the total revenue for the period?</p>
+        <p>5)Which city is the least  profitable in USA?</p>
+
+
+                <br>
+                <br>
+
+                <img src="/global-visual.jpg" alt="" width="100%" height="100%">
+
+                <br>
+                <br>
+                <br>
+
+        The provided dashboard answers most of the questions. The pie chart shows that United States, China and India generated the highest profit of all countries. While the most sold product in the US was Canon imageCLASS 2200 Advanced Copier as shown below, China and India most sold products are Sharp Wireless Fax, Digital and Sauder Classic Bookcase, Traditional. 
+        These 3 products seem to be doing well in these countries, therefore it is advisable to stock up on them as frequently as possible.
+
+        <p style="font-weight: bold; font-size: 20px;">-USA’s Top 3 Products</p>
+        <img src="/USA.jpg" alt="" width="100%" height="100%">
+        <br>
+        <br>
+        <br>
+
+        <p style="font-weight: bold; font-size: 20px;">-China’s Top 3 Products</p>
+        <img src="/China.jpg" alt="" width="100%" height="100%">
+
+        <br>
+        <br>
+        <br>
+        <p style="font-weight: bold; font-size: 20px;">-India’s Top 3 Product</p>
+        <img src="/India.jpg" alt="" width="100%" height="100%">
+
+        <br>
+        <br>
+
+        Furthermore, Accessories, Chairs and Phones are the sub_categories with the highest shipping costs in the United States. Here, the branches have to be careful while calculating shipping costs to prevent losses. Also, it is advisable to encourage customers to make bulk purchases in this situation to avoid discouragement and if affordable, discount can be given to drive sales. 
+
+        <br>
+        <br>
+        The visualization gives insight on the  least profitable city in USA which is Lancaster followed by Burlington with an average loss of -157.37 and -144.92. This can be as a result of different factors ranging from financial constraints among customers or having a scale of preference and opting for a cheaper option. Similarly, Nigeria experienced a substantial loss of -23285.190 over the years, likely due to widespread poverty, with many citizens struggling to make ends meet on a daily basis so the result of the loss cannot be far fetched. 
+
+        <br>
+        <br>
+
+        In conclusion, Global Superstore should increase advertising efforts for their top-selling products in the USA, China, and India,  while also implementing cost-cutting measures in less profitable cities. Also, it should meticulously calculate average shipping costs to minimize errors and offer discounts to increase sales and enhance competitiveness.
+              </div>
+        </div>
+      </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ 
+  </body>
+</html>
