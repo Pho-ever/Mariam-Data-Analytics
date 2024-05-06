@@ -227,6 +227,10 @@ body {
         margin-left: 20px;
     }
 
+    .project-link img {
+        display: none;
+      }
+
     .navbar-div {
         display: grid;
     }
