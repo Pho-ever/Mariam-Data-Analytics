@@ -195,6 +195,28 @@ body {
     border-radius: 20px;
   }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #000;
+    justify-content: center;
+    padding-left: 50px;
+  }
+
+  .contact > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+.contact a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+
   @media (max-width: 899px) {
     .grid-box {
         grid-template-columns: 12fr;
@@ -256,11 +278,6 @@ body {
         left: -20px !important;
     }
 
-    /* .swiper-button-next{
-        width: 35px !important;
-        height: 35px !important;
-    } */
-
     .small-screen {
         /* display: none; */
         border: 2px solid red;
@@ -271,6 +288,10 @@ body {
     .box {
         width: 100%;
     }
+
+    .contact {
+        padding-left: 10px;
+      }
   }
 
   @media (max-width: 375px) {
