@@ -279,7 +279,6 @@ body {
     }
 
     .small-screen {
-        /* display: none; */
         border: 2px solid red;
         position: absolute;
         top: -1000px;
