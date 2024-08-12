@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="navbar-div">
+
+      <div class="flex">
+        <div class="navbar-icon">
+          <img src="/navbar-img.svg" alt="" class="color">
+          <p>M</p>
+          <span>MARIAM ADEPOJU</span>
+      </div>
+
+      <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      </div>
+        
+
+        <ul class="nav nav-tabs justify-content big-screen collapse" id="navbarToggleExternalContent" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+
+        <ul class="nav nav-tabs justify-content small-screen" id="navbarToggleExternalContent" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+
+    <section id="contact" class="section">
+        <div class="right">
+            <h1>HOTEL DATASET</h1>
+            <div class="swiper-slide">
+                <!-- <h2 style="margin-top: 20px;"></h2> -->
+                <div>
+                  It is a common knowledge that many travelers encounter challenges in finding suitable hotels that meet their preferences, ranging from issues with room quality to concerns about the surrounding environment. The Hotel dataset contains 66,542 hotel bookings between January 1st 2010 and December 31st 2019, from a company dedicated to assisting international travelers in securing accommodations in various destination countries. This project offers more insight into customer behavior, booking patterns, the most frequently booked hotel during the specified time frame, and other relevant factors.
+                  Analyzing this dataset, I dived into seasonal and demographic analysis, occupancy analysis, how hotel ratings can be used to rate customers satisfaction, and the correlation between payment method and booking fee analysis.
+                </div>
+                <br>
+                <img src="/Hotel-carbon.png" alt="" width="100%" height="100%">
+                <br>
+                <div>The SQL analysis covers various aspects of hotel bookings and customer behavior, including seasonal patterns, demographic distributions, payment methods, hotel ratings, and occupancy trends. It provides valuable insights for users to optimize strategies and enhance customer satisfaction in the hotel industry</div> 
+
+            <p  style="font-weight: bold; font-size: 20px;">Questions</p>
+            <p>1)Identify the peak booking periods and low seasons.</p>
+            <p>2)Analyze booking patterns across different months/seasons over the ten-year period.</p>
+            <p>3)Explore the demographic analysis of customers.</p>
+            <p>4)Analyze the distribution of payment method used by customers.</p>
+            <p>5)Analyze the room occupants per booking.</p>
+
+              <br>
+              <br>
+              <br>
+              <img src="/Hotel/Hotel-1.png" alt="" width="100%" height="100%">
+              <br>
+              <br>
+              <img src="/Hotel/Hotel-2.png" alt="" width="100%" height="100%">
+              <br>
+              <br>
+              <br>
+        This analysis reveals that December experiences the highest hotel bookings compared to February, which has low bookings. This can likely be attributed to festive events and holidays occurring in December. With a total of 1,230,062 bookings, December stands out, while October and May also register significant booking numbers. We can associate this with several factors such as destination country attractions, holiday seasons, vacation periods, and hotel pricing dynamics.
+
+        <br>
+        <br>
+        
+        Furthermore, the visualization shows the 4th Quarter (Q4) generates the most revenue, which suggests a surge in hotel bookings during the final quarter over the past decade. Also, the ages of 19-29 are the most traveled followed by the ages of 30-39 and 40-49 in no particular order as they share similar booking frequencies. Here, the males of the youngest demographic are the most travelled unlike the ages 30-39 where the females travel more.
+
+        <br>
+        <br>
+
+        Looking at this, it can be as a result of availability of time among the younger demographic, who typically have fewer responsibilities and more leisure time at their disposal. 
+
+        <br>
+        <br>
+        In addition, the data table within the dashboard indicates that Internet Banking was the most commonly utilized payment method, closely followed by debit card transactions, throughout the specified period. This observation can be the result of prevalence of technology, making these options the safest and most traceable methods to prevent fraud. 
+
+        <br>
+        <br>
+
+        Finally, the top five most visited countries are New Zealand, Colombia, Israel, Nepal, and Egypt. To boost hotel revenue, it is recommended to enhance and promote enticing services, particularly during the third and fourth quarters of each year. And also, increase its advertisement during this period.
+              </div>
+            
+        </div>
+      </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ 
+  </body>
+</html>
