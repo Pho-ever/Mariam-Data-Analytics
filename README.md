@@ -59,7 +59,7 @@ Investigating the murder in SQL City on January 15th, 2018, this project starts 
 
 Feel free to reach out for collaborations or inquiries.
 
-**Email:** [mariam@example.com](mailto:mariam@example.com)  
-**LinkedIn:** [Mariam Adepoju](https://linkedin.com/in/mariamadepoju)
+**Email:** [mariamadepoju30@gmail.com](mailto:mariamadepoju30@gmail.com)  
+**LinkedIn:** [Mariam Adepoju](https://www.linkedin.com/in/mariam-adepoju-9aa122252)
 
 ---
