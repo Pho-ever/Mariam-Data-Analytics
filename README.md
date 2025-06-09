@@ -1,6 +1,6 @@
-# Mariam Adepoju Portfolio
+# Mariam Adepoju's Portfolio
 
-Welcome to the portfolio of Mariam Adepoju, a data analyst with expertise in data visualization, data cleaning, Excel, SQL, Python, Power BI, and Tableau. This repository showcases various projects that highlight her analytical skills and ability to transform raw data into actionable insights.
+Welcome to the portfolio of Mariam Adepoju, a Data analyst with expertise in data visualization, data cleaning, Excel, SQL, Python, Power BI, and Tableau. This repository showcases various projects that highlight her analytical skills and ability to transform raw data into actionable insights.
 
 ---
 
